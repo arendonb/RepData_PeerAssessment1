@@ -66,7 +66,7 @@ hist(totalStepDay$total)
 media <- mean(totalStepDay$total, na.rm = TRUE)
 mediana <- median(totalStepDay$total, na.rm = TRUE)
 ```
-Para el total de número de pasos realizados por día, la  media es: 1.0766189\times 10^{4}, y la mediana es: 10765.
+Para el total de número de pasos realizados por día, la  media es: **1.0766189\times 10^{4}**, y la mediana es: **10765**.
 
 ## What is the average daily activity pattern?
 
@@ -88,7 +88,7 @@ plot.ts(avgTs, xlab = "Interval", ylab = "Average number of steps")
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
-El intervalo de 5 minutos con el máximo de numero de pasos es: 104.
+El intervalo de 5 minutos con el máximo de numero de pasos es: **104**.
 
 ## Imputing missing values
 
@@ -115,7 +115,7 @@ hist(datoSinNa$total)
 
 ![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
 
-El número de NA en la información es: 2304.
+El número de NA en la información es: **2304**.
 
 
 ```r
@@ -123,7 +123,7 @@ media2 <- mean(datoSinNa$total)
 mediana2 <- median(datoSinNa$total)
 ```
 
-Para el total de número de pasos realizados por día sin Na en los datos, la  media es: 9354.2295082, y la mediana es: 1.0395\times 10^{4}.
+Para el total de número de pasos realizados por día sin Na en los datos, la  media es: **9354.2295082**, y la mediana es: **1.0395\times 10^{4}**.
 
 Se puede observar que los valores de la "media" y la "mediana" han cambiado, debido al cambio de valores NA
 por 0. 
